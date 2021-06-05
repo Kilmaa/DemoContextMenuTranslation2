@@ -19,9 +19,9 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        tvTranslatedText.findViewById(R.id.textViewTranslatedText);
+        tvTranslatedText = findViewById(R.id.textViewTranslatedText);
         registerForContextMenu(tvTranslatedText);
-        tvTranslatedText2.findViewById(R.id.textViewTranslatedText2);
+        tvTranslatedText2 = findViewById(R.id.textViewTranslatedText2);
         registerForContextMenu(tvTranslatedText2);
     }
 
